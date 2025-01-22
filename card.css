@@ -1,0 +1,26 @@
+#body{
+    padding:15px;
+    background-color:aqua;
+}
+.heading{
+    text-align: center;
+    color: coral;
+    font-size: xx-large;
+}
+.container{
+    margin-top: 4%;
+}   
+p{
+    color: #ff00d4;
+    font-size: large;
+}
+.inner{
+    overflow: hidden;
+
+}
+.inner img{
+    transition:all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+}

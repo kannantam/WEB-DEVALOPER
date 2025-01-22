@@ -1,0 +1,224 @@
+#body{
+    margin: 80px 80px;
+    padding: 20px;
+    
+}
+#container{
+    background: #202e38;
+  display: grid;
+  grid-template-columns:repeat(9,1fr);
+  grid-template-rows:(4);
+   gap: 10px
+
+}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    color: aqua;
+    
+}
+.span{
+    text-align:right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    font-weight:900;
+    color:yellow;
+}
+
+#container>div{
+    font-size: xx-large;
+    text-align: center;
+    border: 2px solid gold ;
+    padding: 10px;
+    
+    
+}
+.item1{
+    background-color: chartreuse;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.item2{
+    background-color: chartreuse;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.item3{
+    background-color:aqua;
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.item4{
+    background-color:greenyellow;
+    grid-column-start:8 ;
+    grid-column-end:9 ;
+    grid-row-start: 2;
+    grid-row-end:1;
+    
+}
+
+.item5{
+    background-color:greenyellow;
+    grid-column-start:9 ;
+    grid-column-end:10;
+    
+}  
+.item6{
+    background-color: rgba(139, 79, 0, 0.959);
+    grid-column-start:1 ;
+    grid-column-end:2;
+    grid-row-start:2 ;
+    grid-row-end:2;
+
+}
+.item7{
+    background-color: rgba(139, 79, 0, 0.959);
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:2;
+
+}
+.item8{
+    background-color: chartreuse;
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.item9{
+    background-color: chartreuse;
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.item10{
+    background-color:blueviolet;
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+.item11{
+    background-color: blueviolet;
+    grid-column-start:6;
+    grid-column-end:7;
+    grid-row-start:2;
+    grid-row-end:2;
+}
+.item12{
+    background-color:aqua;
+grid-column-start:7;
+grid-column-end:8;
+grid-row-start:2;
+grid-row-end:3;
+}
+.item13{
+    background-color:aqua;
+    grid-column-start:8;
+grid-column-end:9;
+grid-row-start:2;
+grid-row-end:3;
+}
+.item14{
+    background-color: aqua;
+    grid-column-start:9;
+grid-column-end:10;
+grid-row-start:2;
+grid-row-end:3;
+}
+.item15{
+    background-color:rgba(139, 79, 0, 0.959);
+    grid-column-start:1;
+grid-column-end:2;
+}
+.item16{
+    background-color:rgba(139, 79, 0, 0.959);
+    grid-column-start:2;
+grid-column-end:3;
+}
+.item17{
+    background-color: rgba(139, 79, 0, 0.959);
+    grid-column-start:3;
+grid-column-end:4;
+}
+.item18{
+    background-color:aqua;
+    grid-column-start:4;
+grid-column-end:5;
+}
+.item19{
+    background-color: aqua;
+    grid-column-start:5;
+grid-column-end:6;
+}
+.item20{
+    background-color:yellowgreen;
+    grid-column-start:6;
+grid-column-end:7;
+}
+.item21{
+    background-color: yellowgreen;
+    grid-column-start:7;
+grid-column-end:8;
+}
+.item22{
+    background-color: aqua;
+    grid-column-start:8;
+grid-column-end:9;
+}
+.item23{
+    background-color:aqua;
+    grid-column-start:9;
+grid-column-end:10;
+}
+.item24{
+    background-color:chartreuse;
+    grid-column-start:2;
+grid-column-end:3;
+}
+.item25{
+    background-color:rgba(139, 79, 0, 0.959);
+    grid-column-start:3;
+    grid-column-end:4;
+}
+.item26{
+    background-color: rgba(139, 79, 0, 0.959);
+    grid-column-start:4;
+    grid-column-end:5;
+}
+.item27{
+    background-color:greenyellow;
+    grid-column-start:5;
+    grid-column-end:6;
+}
+.item28{
+    background-color:chartreuse;
+    grid-column-start:6;
+    grid-column-end:7;
+}
+.item29{
+    background-color:greenyellow;
+    grid-column-start:7;
+    grid-column-end:8;
+}
+.item30{
+    background-color:greenyellow;
+    grid-column-start:8;
+    grid-column-end:9;
+}
+.item31{
+    background-color:greenyellow;
+    grid-column-start:9;
+    grid-column-end:10;
+    grid-row-start:4;
+grid-row-end:5;
+}
+

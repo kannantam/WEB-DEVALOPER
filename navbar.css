@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body
+{
+    width: 100%;
+    background-size:cover;
+    background-position:center;
+    font-family: 'Gill Sans', sans-serif;
+    height:100vh;
+    background-repeat: no-repeat;
+}
+menu-bar li{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    float:left;
+}
+.menu-bar
+{
+    background: rgb( green,);
+    text-align: center;
+    background-color:aqua;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color:rgb( green,);
+    background-color: aqua;
+}
+.menu-bar ul li
+{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:blue;  
+}
+.active, .menu-bar ul li:hover
+{
+    background:darkturquoise;
+    border-radius: 3px;
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb green,( 0,100,0);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted rgb( red);
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color:green;
+}
+.fa-angle-right
+{
+    float: right;
+}
+.sub-menu-2
+{
+    display: none;
+}
+.hover-me:hover .sub-menu-2
+{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background: rgb green,(0,100,0 );
+}
+.sub-menu-3{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    color:rgb green,( 0,100,0);
+}
+.menu-bar ul li:hover .sub-menu-3 ul{
+    display: block;
+    margin: 10px;
+
+}
+.sub-menu-4{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-4{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: rgb green,(0,100,0);
+}
+.menu-bar ul li:hover .sub-menu-4 ul{
+    display: block;
+    margin: 10px;
+}

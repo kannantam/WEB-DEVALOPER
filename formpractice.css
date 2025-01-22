@@ -1,0 +1,53 @@
+body{
+      background-color: blueviolet;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.form{
+      width: 400px;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color:aqua;
+      color: white;
+      font-size: 30px;
+      border-radius: 10px;
+}
+.form h3{
+      text-align: center;
+      color: blue;
+}
+.form textlabel{
+      display: block;
+}
+.input input{
+      width: 100%;
+      font-size: 3.sem;
+      border: 1px solid blue;
+      box-shadow: 2px;
+      border-radius: 8px;
+      padding: 5px 15px;
+      box-sizing: border-box;
+      margin: 5px 0px 10px;
+}
+
+input:focus{
+      background-color: rgb(140, 0, 255);
+}
+.btn{
+      text-align: center;
+}
+button{
+      background-color: brown;
+      font-size: 30px;
+      color: white;
+      margin-top: 20px;
+      padding: 15px 25px;
+      border-radius: 8px;
+      box-shadow: 2px;
+}
+.radio input{
+      accent-color: #000;
+      transform: scale(1.5);
+      -ms-transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+}

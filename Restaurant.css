@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.landing{
+    background-image: url("/HTML/image/432.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+header a{
+       text-decoration: none;
+       color: yellow;
+       padding: 1em;
+
+}
+header{
+    display: flex;
+
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+}
+
+nav{
+    flex: 2;
+    display: flex;
+}
+nav a{
+    flex:10 ;
+}
+nav a:hover{
+    color:green;
+}
+.maintext{
+   display: block;
+    flex-direction: column;
+    height: 60vh;
+    justify-content: center;
+    padding: 20px;
+}
+.tagline1{
+    color: red;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.tagline2{
+    color: aqua;
+
+}
+.maintext div{
+    margin-top: 70px;
+}
+ button{
+    width: 5;
+    margin-top: 1em;
+    border-radius: 5px;
+    padding: 2em;
+    background-color: blueviolet;
+    border:21px ;
+    color: white;
+}

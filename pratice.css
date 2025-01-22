@@ -1,0 +1,35 @@
+#sec1{
+     background-color: blueviolet;
+     height:  200px;
+     
+
+}
+
+#sec2{
+     background-color: aqua;
+     height: 100px; 
+     
+
+}
+
+
+/**{
+    margin:20px 10px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-right:0px;
+
+}*/
+p{
+     color: white;
+     text-align: center;
+     text-decoration: dashed;
+     text-shadow:4px chartreuse; 
+     word-spacing: 8px;
+     text-indent: 10px;
+
+}
+li{
+   list-style-type: square;
+   list-style-image: url(../HTML/image/download.jpg);
+}
