@@ -4,11 +4,14 @@
 //import Practice1 from './practice1';
 //import Practice2 from './Practice2';
 //import Todo from './Todoapp';
-//import ImageSearch from './imagesearch'; 
+//import ImageSearch from './imagesearch';
+//import Practice1 from './practice1';
+//import Do from './Do'; 
 //import ImageSearchkn from './imagesearchkn';
-import Weather from './Weather'
-import{BrowserRouter,Routes,Route,Link} from 'react-router-dom';
-
+//import Weather from './Weather'
+//import{BrowserRouter,Routes,Route,Link} from 'react-router-dom';
+//import Tamil from '/Tamil';
+import kannatamil from '/kannatamil'
 
 
 
@@ -16,15 +19,19 @@ import{BrowserRouter,Routes,Route,Link} from 'react-router-dom';
 function App() {    
   return (
    
-    <BrowserRouter>
+    /*<BrowserRouter>
 
-     <Link to="/search">weather</Link> 
+     <Link to="/search">ImageSearch</Link> 
      <Routes>
-         <Route path='search' element={<Weather></Weather>}></Route>
+        <Route path='search' element={ImageSearch}></Route>
       
-      </Routes> 
+     </Routes> 
 
-    </BrowserRouter>
+    </BrowserRouter>*/
+       <>
+          <kannatamil/>
+       </>
+   
   );
 }
 
